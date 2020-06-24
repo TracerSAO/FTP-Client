@@ -18,7 +18,7 @@
 
 #define SERV_PORT 21
 #define MAXSIZE 256
-#define HOST_SIZE 18    // 限定 usr 输入 IP 地址最大容量 -> 4 * 4 + 3 + ('\0') = 18
+#define HOST_SIZE 18    // 限定 usr 输入 IP 地址最大容量 -> 4 * 3 + 3 + ('\0') = 16
 
 char *_host;            // 存储 usr IP 地址
 int sockfd;             // 套接字 ID: 命令控制线路
